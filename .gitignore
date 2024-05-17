@@ -16,6 +16,8 @@
 *.iws
 .idea/
 .vscode/
+.fvm
+.fvmrc
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -75,3 +77,6 @@ build/
 !**/ios/**/default.mode2v3
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
+
+# FVM Version Cache
+.fvm/
